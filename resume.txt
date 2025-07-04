@@ -163,17 +163,20 @@
 \section{Relevant Coursework}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Computer Science}{: OOP, Cloud, Microservices \& Applications, Modern Web Applications, Operating Systems, COA, Fundamentals of CS, DSA, AI \& Applications} \\
+     \textbf{Computer Science}{: OOP, Cloud, Microservices \& Applications, Modern Web Applications, Operating Systems, COA,         Fundamentals of CS, DSA, AI \& Applications} \\
      \textbf{Mathematics}{: Computation Statistics, Probability, Optimization, Discrete Mathematics, Statistical Methods}
     }}
  \end{itemize}
 
 \section{Extracurriculars}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Codeforces}{: Currently a Pupil with a score of 1200+} \\
-     \textbf{Insight AI Club}{: Founding Member \& Secretary – We are a dedicated group of club members focused on providing actionable ( \& codable) insights and lesson guidance for AI, ML and Data Science related topics.}
-    }}
- \end{itemize}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \item \small{
+    \textbf{Codeforces}{: Currently a Pupil with a score of 1200+} \\
+    \textbf{Insight AI Club}{: Founding Member \& Secretary –} \\
+    We are a dedicated group of club members focused on providing actionable (\& codable) insights and lesson guidance for AI, ML and Data Science related topics.
+  }
+\end{itemize}
+
+
 
 \end{document}
