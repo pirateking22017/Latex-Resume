@@ -1,0 +1,179 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-6pt}}
+
+\renewcommand{\baselinestretch}{0.98}
+\small
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Aman Kumar} \\ \vspace{1pt}
+    \small \href{https://github.com/pirateking22017}{\underline{github.com/pirateking22017}} $|$ \href{mailto:theofficialakp@gmail.com}{\underline{theofficialakp@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/aman-padhy/}{\underline{linkedin.com/in/aman-padhy}}
+\end{center}
+
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Maharashtra Institute of Technology, World Peace University}{Pune, India}
+      {Bachelor of Technology in Computer Science and Engineering, Minor in Business Systems}{2022 -- 2026}
+  \resumeSubHeadingListEnd
+
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Oracle Financial Services Software: Project Intern}{July 2022 -- July 2026}
+      {Pune, India}{June 2025 – Ongoing}
+      \resumeItemListStart
+        \resumeItem{Developed an assistant AI pipeline for Abort tool log dumps, using Oracle Cloud services}
+        \resumeItem{Integrated Oracle Buckets, Databases \& Llama 3 AI cluster for daily use by Abort Assistance teams}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{Cloud Computing – nextBlog} $|$ AWS, Amplify, Tailwind CSS, TipTap Editor}{}
+      \resumeItemListStart
+        \resumeItem{Developed a scalable blogging platform using Cognito, DynamoDB, S3, AppSync GraphQL}
+        \resumeItem{Implemented modern UI/UX with seamless authentication and media management}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Software Architecture – Commercia} $|$ Spring Boot, Angular, Kafka, Kubernetes, Grafana}{}
+      \resumeItemListStart
+        \resumeItem{Designed microservices for product, order, inventory, and notifications with API Gateway}
+        \resumeItem{Implemented observability using Prometheus and Grafana stack}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Modern Web Applications – Elsenote} $|$ Next.js 15, Lucia Auth, Prisma, Stream Chat}{}
+      \resumeItemListStart
+        \resumeItem{Built social media features like posts, comments, notifications, real-time chat, and rich text editing}
+        \resumeItem{Used TanStack Query and Prisma for data handling and performance}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\section{Achievements}
+\resumeSubHeadingListStart
+
+  \resumeItem{\textbf{HackMIT – Winner} \hfill \textit{AstroFlow}}  
+  \resumeItemListStart
+    \resumeItem{Led a team to develop a CSR pipeline tool for astrophotography professionals using Real-ERSGAN and Vulkan.}
+    \resumeItem{Collaborated with astrophotographers to design and develop the software; selected for MITWPU Incubator.}
+  \resumeItemListEnd
+
+  \resumeItem{\textbf{UBS Code for Good | UBS India – Winner} \hfill \textit{RiseUp Platform}}  
+  \resumeItemListStart
+\resumeItem{Built an NGO upskilling platform for underserved communities.}
+    \resumeItem{Used FrappeUI to create a full-featured, intuitive interface that boosted user engagement.}
+  \resumeItemListEnd
+
+  \resumeItem{\textbf{HackXMIT – Winner} \hfill \textit{Bib}}  
+  \resumeItemListStart
+    \resumeItem{Won for developing an innovative solution for delivering lessosn to rural areas using a low-tech solution.}
+  \resumeItemListEnd
+
+  \resumeItem{\textbf{Smart India Hackathon (SIH) – Internal Runner Up} \hfill \textit{CyberFlow}}  
+  \resumeItemListStart
+\resumeItem{Built a real-time cyber monitoring tool for Indian cyberspace.}
+
+    \resumeItem{Implemented AI/ML algorithms to enhance incident detection and analysis.}
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming}{: C, C++, C\#, Python, Shell Scripting, Java, SQL} \\
+     \textbf{Development}{: JavaScript, Bootstrap, Tailwind CSS, Angular, React.js, Express.js, Node.js, TypeScript, PHP, Flask, Next.js} \\
+     \textbf{Frameworks/Libraries}{: Docker, AWS, Azure, Mongo, Scikit-learn, TensorFlow, Keras, PostgreSQL} \\
+     \textbf{Tools}{: Git, PowerBI, Postman}
+    }}
+ \end{itemize}
+
+\section{Relevant Coursework}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Computer Science}{: OOP, Cloud, Microservices \& Applications, Modern Web Applications, Operating Systems, COA, Fundamentals of CS, DSA, AI \& Applications} \\
+     \textbf{Mathematics}{: Computation Statistics, Probability, Optimization, Discrete Mathematics, Statistical Methods}
+    }}
+ \end{itemize}
+
+\section{Extracurriculars}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Codeforces}{: Currently a Pupil with a score of 1200+} \\
+     \textbf{Insight AI Club}{: Founding Member \& Secretary – We are a dedicated group of club members focused on providing actionable ( \& codable) insights and lesson guidance for AI, ML and Data Science related topics.}
+    }}
+ \end{itemize}
+
+\end{document}
