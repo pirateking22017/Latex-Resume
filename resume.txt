@@ -80,15 +80,15 @@
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Maharashtra Institute of Technology, World Peace University}{Pune, India}
-      {Bachelor of Technology in Computer Science and Engineering, Minor in Business Systems}{2022 -- 2026}
+      {Maharashtra Institute of Technology, World Peace University}{2022-2026}
+      {Bachelor of Technology in Computer Science and Engineering, Minor in Business Systems}{Pune, India}
   \resumeSubHeadingListEnd
 
 \section{Experience}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Oracle Financial Services Software: Project Intern}{July 2022 -- July 2026}
-      {Pune, India}{June 2025 – Ongoing}
+      {Oracle Financial Services Software: Project Intern}{June 2025 – Ongoing}
+      {Pune, India}{}
       \resumeItemListStart
         \resumeItem{Developed an assistant AI pipeline for Abort tool log dumps, using Oracle Cloud services}
         \resumeItem{Integrated Oracle Buckets, Databases \& Llama 3 AI cluster for daily use by Abort Assistance teams}
