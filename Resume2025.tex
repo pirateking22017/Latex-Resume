@@ -1,0 +1,208 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[5][0pt]{ % 5th param optional spacing
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#2} & #3 \\
+      \textit{\small#4} & \textit{\small #5} \\
+    \end{tabular*}\vspace{#1} % <-- use optional spacing
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-6pt}}
+
+\renewcommand{\baselinestretch}{0.98}
+\small
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Aman Kumar} \\ \vspace{1pt}
+    \small \href{https://github.com/pirateking22017}{\underline{github.com/pirateking22017}} $|$ \href{mailto:theofficialakp@gmail.com}{\underline{theofficialakp@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/aman-padhy/}{\underline{linkedin.com/in/aman-padhy}}
+\end{center}
+
+\section{About Me}
+\small{
+I have always been driven by the desire to make (\& tinker with) things and solve problems, which is why I enjoy participating in hackathons and competitions that tackle real-world challenges. I also like mathematics and computer science.}
+
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Maharashtra Institute of Technology, World Peace University}{2022-2026}
+      {Bachelor of Technology in Computer Science and Engineering, Minor in Business Systems}{GPA 8.29/10}
+    \vspace{-0.1cm} % tighten spacing
+
+    \resumeSubheading
+      {Army Public School, Pune}{2020-2021}
+      {Class 12 (PCMB – Physics, Chemistry, Mathematics, Biology)}{Percentage: 95.4\%}
+    \vspace{-0.1cm} % tighten spacing
+
+    \resumeSubheading
+      {Army Public School, Pune}{2018-2019}
+      {Class 10 (Mathematics, Science, English)}{Percentage: 96.2\%}
+  \resumeSubHeadingListEnd
+
+
+
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Oracle Financial Services Software: Project Intern}{Jun 2025 – Aug 2025}
+      {Pune, India}{}
+      \resumeItemListStart
+        \resumeItem{Offered a return full-time role at Oracle based on internship performance.}
+        \resumeItem{Engineered an AI-driven assistant pipeline for Abort tool log dumps on Oracle Cloud Infrastructure with a RAG failsafe, reducing manual triage effort by 60\% and improving SRE resolution speed.}
+
+        \resumeItem{Developed a Python-based tool to automate DR/DC server consistency checks, ensuring configuration alignment across environments and supporting RBI compliance by reducing manual validation time and improving reliability.}
+
+        \resumeItem{Performed middleware integration and reliability testing on Oracle WebLogic-based services, validating API and transaction workflows across distributed systems.}
+      \resumeItemListEnd
+
+    \vspace{0.2cm} % <-- adjust this value as needed
+
+    \resumeSubheading
+      {Škoda Auto Volkswagen Training Academy - Product Development Intern}{Aug 2025 – Ongoing}
+      {Pune, India}{}
+      \resumeItemListStart
+        \resumeItem{Designed and deployed ML-driven e-learning modules for sales training, leveraging Azure Cloud.}
+        \resumeItem{Developed multimodal assessment systems integrating BERT-based NLP models, Azure Speech-to-Text DNNs, and Custom Vision CNNs to evaluate post-sales customer servicing.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+
+\section{Projects}
+  \resumeSubHeadingListStart
+  \resumeProjectHeading
+      {\textbf{Deep Reinforcement Learning for Basic Games} $|$ Deep Q-Networks, Double-DQN, Python, OpenAI Gym}{}
+      \resumeItemListStart
+        \resumeItem{Trained a Deep Reinforcement Learning agent that exceeds human-level performance on classic Atari games such as Pong, Breakout, and Boxing using raw game screen pixels as input.}
+        \resumeItem{Analyzed and compared the performance of off-policy frameworks, including Deep Q-Network (DQN) and Double-DQN, to optimize learning efficiency and stability.}
+      \resumeItemListEnd \vspace{0.2cm}
+      
+    \resumeProjectHeading
+      {\textbf{Software Architecture – Commercia} $|$ Spring Boot, Angular, Kafka, Kubernetes, Grafana}{}
+      \resumeItemListStart
+        \resumeItem{Architected scalable microservices using Spring Boot and Kafka to handle high-volume transactions.}
+        \resumeItem{Deployed on Kubernetes with auto-scaling and load balancing, ensuring fault-tolerance under stress.}
+        \resumeItem{Built observability stack with Prometheus \& Grafana to monitor distributed workflows in real-time.}
+      \resumeItemListEnd \vspace{0.2cm}
+      \resumeProjectHeading
+      {\textbf{Sports Analytics with YOLOv8 and OpenCV} $|$ Object Detection, Optical Flow, Perspective Transform, Python}{}
+      \resumeItemListStart
+        \resumeItem{Built a computer vision pipeline to detect players and track their movement in sports videos using YOLOv8.}
+        \resumeItem{Segmented players with K-Means clustering to accurately identify t-shirt colors and applied optical flow to measure camera motion.}
+        \resumeItem{Used OpenCV perspective transformation to analyze field depth, enabling computation of player speed and distance covered.}
+        \resumeItemListEnd \vspace{-0.2cm} 
+    \resumeProjectHeading
+      {\textbf{Cloud Development – nextBlog} $|$ AWS, Amplify, Tailwind CSS, TipTap Editor}{}
+      \resumeItemListStart
+        \resumeItem{Developed a scalable blogging platform using Cognito, DynamoDB, S3, AppSync GraphQL}
+        \resumeItem{Implemented modern UI/UX with seamless authentication and media management}
+      \resumeItemListEnd \vspace{0.2cm}
+    \resumeProjectHeading
+      {\textbf{Modern Web Applications – Elsenote} $|$ Next.js 15, Lucia Auth, Prisma, Stream Chat}{}
+      \resumeItemListStart
+        \resumeItem{Developed a full-stack social platform with real-time chat, notifications, and optimized data-fetching.}
+        \resumeItem{Implemented server-side rendering and caching for scalable performance using TanStack Query.}
+      \resumeItemListEnd \vspace{0.2cm}
+  \resumeSubHeadingListEnd
+
+
+\section{Achievements}
+\resumeSubHeadingListStart
+  \resumeItem{\textbf{HackMIT – Winner (2025)}: Developed AstroFlow, a CSR pipeline tool for astrophotography using Real-ESRGAN and Vulkan (selected for MITWPU Incubator).}
+  \resumeItem{\textbf{UBS Code for Good – 2nd Place (2025)}: Built RiseUp, an NGO upskilling platform using FrappeUI to boost user engagement. Offered an internship oppurtunity + Full time employment offer.}
+  \resumeItem{\textbf{HackXMIT – Ideathon 2nd Place  (2025)}: Created Bib, a low-tech solution for delivering lessons to rural areas.}
+  \resumeItem{\textbf{Smart India Hackathon – Internal Runner Up (2024)}: Built CyberFlow, a real-time cyber monitoring tool with AI/ML-driven incident detection.}
+\resumeSubHeadingListEnd
+
+\section{Extracurriculars}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \item \small{
+    \textbf{Codeforces}{: Currently a Pupil (max score : 1201) } \\
+     \textbf{Codechef}{: Currently a DIV4 (max score : 1256) }
+  }
+  \item \small{
+    \textbf{Insight AI Club (Founding Member \& Tech Head \& Mentor)}{: Led a team of 120+ members; hosted 6+ workshops for 1000+ students on machine learning and cloud deployment. Mentored numerous juniors through projects and publications.}
+  }
+\end{itemize}
+
+\section{Relevant Coursework}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+ \textbf{Computer Science}{: Data Structures \& Algorithms, Cloud Computing, Distributed Systems, Operating Systems, Database Systems, Software Architecture, Microservices, AI Applications} \\
+ \textbf{Mathematics}{: Probability, Optimization, Statistics, Discrete Mathematics}
+}}
+ \end{itemize}
+
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+ \textbf{Languages}{: C, C++, SQL, TypeScript, Python, Shell, Java} \\
+ \textbf{AI/ML}{: PyTorch, TensorFlow, OpenAI Gym (now Gymnasium), Langchain, YOLOv8, OpenCV, Scikit-learn} \\
+ \textbf{Backend/DevOps}{: Spring Boot, Node.js, Docker, Kubernetes, Kafka, GraphQL, REST APIs} \\
+ \textbf{Cloud/Distributed}{: AWS (EC2, S3, DynamoDB, Cognito, AppSync), Azure (Azure App service, Statice web apps, Azure AI (Speech, Vision, Language), Azure Virtual Machines), Oracle Cloud Infrastructure} \\
+ \textbf{Frontend}{: React.js, Next.js, Angular, Tailwind CSS, Bootstrap} \\
+}}
+ \end{itemize}
+
+\end{document}
